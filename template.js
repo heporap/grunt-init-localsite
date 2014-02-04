@@ -93,7 +93,6 @@ exports.template = function(grunt, init, done) {
     var async = require('./lib/async.js');
     async.series([
       function(callback){
-        var repository = props.repository_local;
         if( !props.repository_name ){
           callback(null, '');
           return;
@@ -106,7 +105,6 @@ exports.template = function(grunt, init, done) {
         });
       },
       function(callback){
-        var repository = props.repository_local;
         if( !props.repository_name ){
           callback(null, '');
           return;
