@@ -32,7 +32,7 @@ At the command-line, cd into an empty directory, run this command and follow the
 grunt-init localsite
 ```
 
-ファイルの生成が完了すると、`git init`コマンドと、`git remote add repository_name repository_local 'コマンドを実行します。
+ファイルの生成が完了すると、`git init`コマンドと、`git remote add repository_name repository_local `コマンドを実行します。
 
 repository_name に"none"を指定するとgit remoteは実行しません。
 
