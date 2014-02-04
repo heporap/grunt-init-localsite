@@ -63,3 +63,7 @@ This will copy files in **public_html directory** to **public_html setting** in 
 ```
 コンパイル後に公開ディレクトリにコピーします。
 This will copy files to the Sites directory after compiling.
+
+##Copyright
+Copyright (c) 2014 Wicker Wings
+Copyright (c) 2014 "Cowboy" Ben Alman, contributors
