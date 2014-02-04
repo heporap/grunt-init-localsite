@@ -66,9 +66,9 @@ This will compile the files.
 ```
 
 **public_html**ディレクトリの中にあるファイルが公開用ディレクトリにコピーされます。
-公開用ディレクトリ内では、destの内容は<script src="dest/プロジェクト名.min.js"></script>で読み込めます。
-公開ディレクトリのディレクトリ名は、初期設定時の public_html 設問、ならびにpackage.jsonの " public_html " で指定されたディレクトリです。
-デフォルトは Sites です。
+公開用ディレクトリ内では、destの内容は&lt;script src="dest/プロジェクト名.min.js"&gt;&lt;/script&gt;で読み込めます。
+公開ディレクトリのディレクトリ名は、初期設定時のpublic_html設問、ならびにpackage.jsonの "public_html" で指定されたディレクトリです。
+デフォルトは Sites です。(/Users/ユーザー名/Sitesではなく、プロジェクトディレクトリ内にSitesディレクトリを作成します。）
 
 This will copy files in **public_html directory** to **public_html setting** in package.json. And **dest** directory will be copied in the public_html setting directory. The default setting of public_html setting is "Sites".
 
