@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     // Task configuration.
     clean: {
       build: ["dest/<%= pkg.name %>/"],
-      public_html: ['<%= pkg.public_html %>'],
+      public_html: ['./<%= pkg.public_html %>'],
     },
     concat: {
       options: {
