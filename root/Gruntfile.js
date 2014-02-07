@@ -1,6 +1,5 @@
-'use strict';
-
 module.exports = function(grunt) {
+'use strict';
 
   // Project configuration.
   grunt.initConfig({
@@ -14,7 +13,6 @@ module.exports = function(grunt) {
     // Task configuration.
     clean: {
       build: ["dest/<%= pkg.name %>/"],
-      public_html: ['./<%= pkg.public_html %>'],
     },
     concat: {
       options: {
@@ -92,7 +90,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', ['jshint', 'nodeunit', 'clean:build', 'concat', 'uglify']);
   
   // Custom tasks.
-  grunt.registerTask('public_html', ['clean:public_html', 'copy:public_html']);
+  grunt.registerTask('public_html', ['copy:public_html']);
   grunt.registerTask('public_build', ['default', 'public_html']);
 
 };
